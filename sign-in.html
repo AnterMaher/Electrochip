@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!----------------- logo -------------->
+    <link rel="shortcut icon" href="worker_1839325.png" type="image/x-icon" />
+    <!----------------- logo -------------->
+    <!-- -------File CSS,bootstrap------- -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- -------- ---------------------- -->
+    <!-- ---------------font ----------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet" />
+    <!-- ----------------------------- -->
+    <!-- ----------icon--------------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- ----------------------------- -->
+    <title>sign ln</title>
+</head>
+
+<body>
+    <div><button class="btn btn_search  d-flex justify-content-center"><a href="index.html" class="d-flex "><i class="fa-solid fa-house fa-beat"></i></a></button></div>
+    <div class="div_sign_in">
+        <div class="sign_in">
+            <h1 class="text-center">Sign In</h1>
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" class="form-control text-dark" id="Name" placeholder="Enter your Name">
+                <label>Email</label>
+                <input type="email" class="form-control text-dark" id="email" placeholder="Enter your email">
+                <button onclick="btn_sign()" class="btn btn_sign_ln w-100 mt-3"><a href="" target="_self" id="sign-ln">sign ln</a></button>
+            </div>
+        </div>
+    </div>
+
+    <table id="table" class="table table-striped table-dark table-hover table-bordered table-responsive-md text-center "
+        style=" box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.899);">
+        <thead>
+            <tr>
+                <th scope="col-5">ID</th>
+                <th scope="col-3">Name</th>
+                <th scope="col-1">Email</th>
+                <th scope="col-3">Delete</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+        </tbody>
+    </table>
+
+
+    <script src="js/main.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: 'Fjalla One', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    color: #ffffff;
+}
+
+.nav-link {
+    color: #ffffff;
+}
+
+.nav-link:hover {
+    color: #ffc107;
+}
+
+.section_0 {
+    background-color: #007bff;
+    padding: 50px 0;
+}
+
+.section_0 h1 {
+    color: #ffffff;
+}
+
+.section_0 p {
+    color: #ffffff;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.jumbotron_div {
+    background-color: #6c757d;
+    color: #ffffff;
+}
+
+.btn_search {
+    background-color: #28a745;
+    color: #ffffff;
+}
+
+.btn_search:hover {
+    background-color: #218838;
+}
+
+.text-pop-up-top {
+    animation: pop-up 0.5s ease-in-out;
+}
+
+@keyframes pop-up {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    color: #6c757d;
+}
